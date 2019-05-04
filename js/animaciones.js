@@ -24,7 +24,7 @@ function aumentar(){
    document.getElementById("anio").innerHTML = anioNuevo;
    if(anioNuevo >= 2019)
    {
-      document.getElementById("mensaje").innerHTML = "Esta noticia es del futuro!";
+      document.getElementById("mensaje").innerHTML = "Esta noticia es del futuro";
    }
 }
 
