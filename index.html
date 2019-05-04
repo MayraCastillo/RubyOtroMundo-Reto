@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset=utf-8 />
+    <title>Ruby del otro mundo</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <script src="js/animaciones.js"></script>
+    <audio id="sonido" src="sounds/sound.mp3"></audio> 
+  </head>
+  
+  <body onkeyup="pulsar(event)">
+    <div class="banner">
+      <h1 class="banner-titulo">Reto de las gemas</h1>
+      <h2 class="banner-texto">Ruby del otro mundo</h2>
+    </div>
+
+    <div class="contenido" id="contenido">
+      <h3>Descripción del primer reto.</h3>
+      <p class="texto">
+         Crear una función en JavaScript que dado un título de una noticia, se transforma las vocales del así:<br>
+	 A = Rombo<br>
+	 E = Pica<br>
+	 I = Corazón<br>
+	 O = Carita Feliz<br>
+	 U = Carita triste<br>
+	 El algoritmo debe servir para cualquier título.<br>
+	 Poner una caja de texto que permita recibir el texto del título de la noticia y un botón que cambia el texto.<br>
+	 Poner un botón que cambia las vocales.
+      </p>
+      <div class="solucion">
+         <h2>Dígite el título de la noticia.</h2>
+	 <input type="text" id="tituloNoticia"/><br>
+	 <button id="btnCambiar" onclick ="cambiar()">Realizar cambios</button>
+         <p id="textoOriginal">Texto original: </p>
+ 	 <p id="textoCambiado">Texto modificado: </p>
+      </div><br><br>
+
+      <h3>Descripción del segundo reto.</h3>
+      <p class="texto">
+         Crear una página de una noticia con fecha. Crear un código en JS que modifique el año de la fecha de la noticia cuando se presiona la tecla “arriba” en el teclado.<br>
+	 Cómo máximo se debe llegar al año 2010.<br>
+	 Cuando se llega al año 2019 imprime el texto (arriba del título de la noticia) "Esta noticia es del futuro"
+      </p>
+      <div class="solucion">      
+         <p id="fecha">10 de mayo <label id="anio">2010</label>, 06:17 p.m.</p>
+         <h1 id="mensaje"></h1>  
+         <h2>Todo lo que sabemos de la PlayStation 5</h2>
+	 <p class="texto">¿Retrocompatibilidad y mejoras gráficas? Los rumores más  probables de la siguiente consola de Sony.</p>
+         <div class="imagen"><img id="imagen" src="img/imgNoticia.png" alt="Imagen"/>
+ 	 <p class="texto">Después de meses de expectativa, la llegada de la PlayStation 5 se avecina y la prensa internacional ha llenado la red con teorías y rumores basados en detalles oficiales y filtraciones que dan pistas sobre las posibles características técnicas de la nueva generación de la consola de Sony.</p>
+	 <p class="texto">Si bien la compañía japonesa aún no ha generado anuncios oficiales, la PlayStation 4 lleva años en el mercado y ya da señales de necesitar una renovación para seguir vigente y continuar compitiendo en el segmento, que recientemente ha recibido anuncios como la llegada de la computación en la nube, con propuestas como Stadia de Google.</p>
+         <p> Información más detallada <a href="https://www.eltiempo.com/tecnosfera/videojuegos/todo-lo-que-sabemos-de-la-playstation-5-hasta-ahora-356944" target="_blank">aquí</a></p>
+      </div>
+
+    </div>
+  </body>
+</html>
