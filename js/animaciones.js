@@ -3,7 +3,7 @@
   document.getElementById("textoOriginal").innerHTML = "Texto original: " + textoIngresado;
   var textoCambiado = textoIngresado.replace("A", "Rombo");
   var textoCambiado = textoIngresado.replace("E", "Pica");
-  var textoCambiado = textoIngresado.replace("I", "Corazón");
+  var textoCambiado = textoIngresado.replace("I", "CorazÃ³n");
   var textoCambiado = textoIngresado.replace("O", "Carita Feliz");
   var textoCambiado = textoIngresado.replace("U", "Carita Triste");
   document.getElementById("TextoCambiado").innerHTML = "Texto modificado: " + textoCambiado;
@@ -24,7 +24,7 @@ function aumentar(){
    document.getElementById("anio").innerHTML = anioNuevo;
    if(anioNuevo >= 2019)
    {
-      document.getElementById("mensaje").innerHTML = "¡Esta noticia es del futuro!";
+      document.getElementById("mensaje").innerHTML = "Esta noticia es del futuro!";
    }
 }
 
